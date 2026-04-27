@@ -18,7 +18,7 @@ function chunkText(text, chunkSize = 1500, overlap = 300) {
 // Function to call Google Gemini API for fast batch embeddings
 async function getBatchEmbeddings(texts) {
     try {
-        const apiKey = "AIzaSyAsYdDOfJ7378o6BuKK4ixp8hngIKCvYfM"; // User provided API key
+        const apiKey = "Use Your Key"; // User provided API key
 
         // Construct the bulk payload
         const payload = {
